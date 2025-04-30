@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friday Furnace</title>
+  <link rel="icon" href="ff logo.png" type="image/png">
+  <link rel="shortcut icon" href="ff.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 20px 0 10px;
+    }
+    .logo {
+      max-width: 500px;
+      width: 100%;
+      height: auto;
+      margin: 0 auto 15px;
+      display: block;
+    }
+    .tagline {
+      font-size: 1.3rem;
+      color: #444;
+      margin-bottom: 20px;
+      font-style: italic;
+      text-align: center;
+    }
+    .header-border {
+      border-bottom: 1px solid #f0f0f0;
+      margin-bottom: 0;
+    }
+    .search-icon {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 1.5rem;
+      color: #333;
+    }
+    nav {
+      text-align: center;
+      padding: 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: normal;
+      padding: 15px 20px;
+      display: block;
+      transition: all 0.3s;
+    }
+    nav a:hover {
+      background-color: #f9f9f9;
+    }
+    nav a.current {
+      border-bottom: 2px solid #333;
+      font-weight: bold;
+    }
+    .content {
+      padding: 30px 0;
+      text-align: left;
+    }
+    .notes-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .notes-list li {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .notes-list li:last-child {
+      border-bottom: none;
+    }
+    .notes-list a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      display: block;
+      margin-bottom: 5px;
+    }
+    .notes-list a:hover {
+      color: #666;
+    }
+    .date {
+      color: #666;
+      font-size: 0.9rem;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 20px 0;
+      font-size: 0.9rem;
+      color: #666;
+      text-align: center;
+      border-top: 1px solid #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="search-icon">⚲</div>
+  
+  <div class="container">
+    <header>
+      <img src="ff logo.png" alt="Friday Furnace Logo" class="logo">
+      <h2 class="tagline">Where the week's worst news goes up in smoke</h2>
+    </header>
+    
+    <div class="header-border"></div>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="notes.html" class="current">Notes</a></li>
+      </ul>
+    </nav>
+    
+    <div class="content">
+      <h1>Notes</h1>
+      <p>Our latest analysis of Friday SEC filings will appear here.</p>
+      
+      <ul class="notes-list">
+        <!-- These will be filled in later -->
+        <li>
+          <a href="#">Coming soon...</a>
+          <span class="date">Stay tuned for our first post</span>
+        </li>
+      </ul>
+    </div>
+    
+    <footer>
+      <p>&copy; 2025 Friday Furnace. All rights reserved.</p>
+      <p>Contact: <a href="mailto:fridayfurnace@gmail.com">fridayfurnace@gmail.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
